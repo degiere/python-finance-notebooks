@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas-datareader = {git = "https://github.com/pydata/pandas-datareader.git", ref = "master"}
+matplotlib = "*"
+seaborn = "*"
+jupyter = "*"
+pipenv = "*"
+mpl-finance = {git = "https://github.com/matplotlib/mpl_finance.git", ref = "master"}
+pandas = "==0.22"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
