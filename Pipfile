@@ -1,16 +1,17 @@
 [[source]]
-url = "https://pypi.python.org/simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
 pandas-datareader = {git = "https://github.com/pydata/pandas-datareader.git", ref = "master"}
-matplotlib = "*"
-seaborn = "*"
+networkx = "*"
 jupyter = "*"
-pipenv = "*"
+matplotlib = "*"
 mpl-finance = {git = "https://github.com/matplotlib/mpl_finance.git", ref = "master"}
-pandas = "==0.22"
+seaborn = "*"
+bokeh = "*"
 
 [dev-packages]
 
