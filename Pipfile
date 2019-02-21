@@ -12,6 +12,7 @@ matplotlib = "*"
 mpl-finance = {git = "https://github.com/matplotlib/mpl_finance.git", ref = "master"}
 seaborn = "*"
 bokeh = "*"
+pyyaml = "*"
 
 [dev-packages]
 
