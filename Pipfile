@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-pandas-datareader = {git = "https://github.com/pydata/pandas-datareader.git", ref = "master"}
+#pandas-datareader = {git = "https://github.com/pydata/pandas-datareader.git", ref = "master"}
+pandas-datareader = "*"
 networkx = "*"
 jupyter = "*"
 matplotlib = "*"
@@ -17,4 +18,4 @@ pyyaml = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
